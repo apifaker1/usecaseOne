@@ -1,5 +1,4 @@
-{
-"issues": [
+[
 {
 "uuid": "c4d82f44-4cc2-41d4-8e81-1370d2c52565",
 "status": "resolved",
@@ -591,6 +590,4 @@
 "remediation_advice": "This is where you could find some remediation advice for this issue with uuid 6afc001c-e5d6-4c6d-bd19-bb54f7e76bff",
 "category_id": "web"
 }
-],
-"all_results_returned": true
-}
+]

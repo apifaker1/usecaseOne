@@ -1,4 +1,5 @@
-[
+{
+"issues": [
 {
 "uuid": "c4d82f44-4cc2-41d4-8e81-1370d2c52565",
 "status": "resolved",
@@ -591,3 +592,4 @@
 "category_id": "web"
 }
 ]
+}

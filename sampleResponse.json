@@ -1,152 +1,304 @@
-[
+{
+  "logs": [
     {
-        "AgentX_win": {
-            "timestamp": "2024-04-24T12:16:44.648+0000",
-            "agent": {
-                "id": "036",
-                "name": "w600pp012",
-                "ip": "10.163.125.12",
-                "labels": {
-                    "os_name": "windows",
-                    "event_source": "Duo-Security-Auth-Proxy"
-                }
-            },
-            "manager": {
-                "name": "agentx-server"
-            },
-            "id": "1713961004.0",
-            "cluster": {
-                "name": "logpoint_cluster7655",
-                "node": "10.163.205.166"
-            },
-            "full_log": "2024-04-24T14:16:43.318049+0200 [duoauthproxy.lib.log#info] Received new request id 135 from ('10.163.125.60', 46438)",
-            "decoder": {},
-            "location": "\\Program Files\\Duo Security Authentication Proxy\\log\\authproxy.log"
+      "actor": {
+        "id": "00u2u0a292GyUlzEL417",
+        "type": "User",
+        "alternateId": "abc@lplab.com",
+        "displayName": "ABC ABC",
+        "detailEntry": null
+      },
+      "client": {
+        "userAgent": {
+          "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/10.0.0.1 Safari/537.36",
+          "os": "Mac OS 14.4.1 (Sonoma)",
+          "browser": "CHROME"
+        },
+        "zone": "null",
+        "device": "Computer",
+        "id": null,
+        "ipAddress": "10.0.0.1",
+        "geographicalContext": {
+          "city": "Kathmandu",
+          "state": "Bagmati Province",
+          "country": "Nepal",
+          "postalCode": null,
+          "geolocation": {
+            "lat": 2.4,
+            "lon": 85.3318
+          }
         }
+      },
+      "device": null,
+      "authenticationContext": {
+        "authenticationProvider": null,
+        "credentialProvider": null,
+        "credentialType": null,
+        "issuer": null,
+        "interface": null,
+        "authenticationStep": 0,
+        "externalSessionId": "102q5Hh6wOGRj2muULMfFaItQ"
+      },
+      "displayMessage": "Fired when the user's Okta password is expired",
+      "eventType": "user.account.expire_password",
+      "outcome": {
+        "result": "SUCCESS",
+        "reason": null
+      },
+      "published": "2024-05-02T04:29:52.773Z",
+      "securityContext": {
+        "asNumber": 45650,
+        "asOrg": "jawalakhel",
+        "isp": "abc communications",
+        "domain": "abc.org",
+        "isProxy": false
+      },
+      "severity": "INFO",
+      "debugContext": {
+        "debugData": {
+          "requestId": "3ab7e084b6708ef77314b6495572aca7",
+          "dtHash": "6a384e8abf32344df80dd6118daad655b2c13e0d61e0b0dacada2beb26e2f3d7",
+          "tempPasswordSet": "true",
+          "requestUri": "/api/v1/users/00ud9t2pkc178dGB6417/lifecycle/expire_password",
+          "sessionRevocation": "false",
+          "url": "/api/v1/users/00ud9t2pkc178dGB6417/lifecycle/expire_password?"
+        }
+      },
+      "legacyEventType": null,
+      "transaction": {
+        "type": "WEB",
+        "id": "3ab7e084b6708ef77314b6495572aca7",
+        "detail": {}
+      },
+      "uuid": "9ed7143e-083c-11ef-9a15-91017dacd18a",
+      "version": "0",
+      "request": {
+        "ipChain": [
+          {
+            "ip": "10.0.0.1",
+            "geographicalContext": {
+              "city": "Kathmandu",
+              "state": "Bagmati Province",
+              "country": "Nepal",
+              "postalCode": null,
+              "geolocation": {
+                "lat": 2.4,
+                "lon": 85.3318
+              }
+            },
+            "version": "V4",
+            "source": null
+          }
+        ]
+      },
+      "target": [
+        {
+          "id": "00ud9t2pkc178dGB6417",
+          "type": "User",
+          "alternateId": "abc@lplab.com",
+          "displayName": "ABC ABC",
+          "detailEntry": null
+        }
+      ]
     },
     {
-        "AgentX_win": {
-            "timestamp": "2024-04-24T12:16:45.648+0000",
-            "agent": {
-                "id": "36",
-                "name": "Kushal",
-                "ip": "10.163.125.12",
-                "labels": {
-                    "os_name": "windows",
-                    "event_source": "Duo-Security-Auth-Proxy"
-                }
-            },
-            "manager": {
-                "name": "agentx-server"
-            },
-            "id": "1713961004.0",
-            "cluster": {
-                "name": "logpoint_cluster7655",
-                "node": "10.163.205.166"
-            },
-            "full_log": "2024-04-24T14:16:43.318049+0200 [duoauthproxy.lib.log#info] Received new request id 135 from ('10.163.125.60', 46438)",
-            "decoder": {},
-            "location": "\\Program Files\\Duo Security Authentication Proxy\\log\\authproxy.log"
+      "actor": {
+        "id": "00u2u0a292GyUlzEL417",
+        "type": "User",
+        "alternateId": "abc@lplab.com",
+        "displayName": "ABC ABC",
+        "detailEntry": null
+      },
+      "client": {
+        "userAgent": {
+          "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/10.0.0.1 Safari/537.36",
+          "os": "Mac OS 14.4.1 (Sonoma)",
+          "browser": "CHROME"
+        },
+        "zone": "null",
+        "device": "Computer",
+        "id": null,
+        "ipAddress": "10.0.0.1",
+        "geographicalContext": {
+          "city": "Kathmandu",
+          "state": "Bagmati Province",
+          "country": "Nepal",
+          "postalCode": null,
+          "geolocation": {
+            "lat": 2.4,
+            "lon": 85.3318
+          }
         }
+      },
+      "device": null,
+      "authenticationContext": {
+        "authenticationProvider": null,
+        "credentialProvider": null,
+        "credentialType": null,
+        "issuer": null,
+        "interface": null,
+        "authenticationStep": 0,
+        "externalSessionId": "102q5Hh6wOGRj2muULMfFaItQ"
+      },
+      "displayMessage": "User accessing Okta admin app",
+      "eventType": "user.session.access_admin_app",
+      "outcome": {
+        "result": "SUCCESS",
+        "reason": null
+      },
+      "published": "2024-05-02T04:28:32.947Z",
+      "securityContext": {
+        "asNumber": 45650,
+        "asOrg": "jawalakhel",
+        "isp": "abc communications",
+        "domain": "abc.org",
+        "isProxy": false
+      },
+      "severity": "INFO",
+      "debugContext": {
+        "debugData": {
+          "requestId": "c01b70d627d12989c620b1bba76228b2",
+          "dtHash": "6a384e8abf32344df80dd6118daad655b2c13e0d61e0b0dacada2beb26e2f3d7",
+          "requestUri": "/admin/sso/callback",
+          "threatSuspected": "false",
+          "url": "/admin/sso/callback?code=******&state=9ob_lKpnCuVeSBJrcB78WcBv34tJsGrU"
+        }
+      },
+      "legacyEventType": "app.admin.sso.login.success",
+      "transaction": {
+        "type": "WEB",
+        "id": "c01b70d627d12989c620b1bba76228b2",
+        "detail": {}
+      },
+      "uuid": "6f4298ad-083c-11ef-ab95-25b3f72a429f",
+      "version": "0",
+      "request": {
+        "ipChain": [
+          {
+            "ip": "10.0.0.1",
+            "geographicalContext": {
+              "city": "Kathmandu",
+              "state": "Bagmati Province",
+              "country": "Nepal",
+              "postalCode": null,
+              "geolocation": {
+                "lat": 2.4,
+                "lon": 85.3318
+              }
+            },
+            "version": "V4",
+            "source": null
+          }
+        ]
+      },
+      "target": [
+        {
+          "id": "00u2u0a292GyUlzEL417",
+          "type": "AppUser",
+          "alternateId": "abc@lplab.com",
+          "displayName": "ABC ABC",
+          "detailEntry": null
+        }
+      ]
     },
     {
-        "AgentX_win": {
-            "timestamp": "2024-04-24T12:16:32.635+0000",
-            "agent": {
-                "id": "036",
-                "name": "w600pp012",
-                "ip": "10.163.125.12",
-                "labels": {
-                    "os_name": "windows",
-                    "event_source": "Duo-Security-Auth-Proxy"
-                }
-            },
-            "manager": {
-                "name": "agentx-server"
-            },
-            "id": "1713960992.0",
-            "cluster": {
-                "name": "logpoint_cluster7655",
-                "node": "10.163.205.166"
-            },
-            "full_log": "2024-04-24T14:16:31.571733+0200 [duoauthproxy.lib.http._ConnectProxyClientFactory#info] Stopping factory <duoauthproxy.lib.http._ConnectProxyClientFactory object at 0x000002827D8BCB50>",
-            "decoder": {},
-            "location": "\\Program Files\\Duo Security Authentication Proxy\\log\\authproxy.log"
+      "actor": {
+        "id": "00u2u0a292GyUlzEL417",
+        "type": "User",
+        "alternateId": "abc@lplab.com",
+        "displayName": "ABC ABC",
+        "detailEntry": null
+      },
+      "client": {
+        "userAgent": {
+          "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/10.0.0.1 Safari/537.36",
+          "os": "Mac OS 14.4.1 (Sonoma)",
+          "browser": "CHROME"
+        },
+        "zone": "null",
+        "device": "Computer",
+        "id": null,
+        "ipAddress": "10.0.0.1",
+        "geographicalContext": {
+          "city": "Kathmandu",
+          "state": "Bagmati Province",
+          "country": "Nepal",
+          "postalCode": null,
+          "geolocation": {
+            "lat": 2.4,
+            "lon": 85.3318
+          }
         }
-    },
-    {
-        "AgentX_win": {
-            "timestamp": "2024-04-24T12:16:56.738+0000",
-            "agent": {
-                "id": "032",
-                "name": "w200pp023",
-                "ip": "10.163.117.23",
-                "labels": {
-                    "os_name": "windows",
-                    "event_source": "Duo-Security-Auth-Proxy"
-                }
-            },
-            "manager": {
-                "name": "agentx-server"
-            },
-            "id": "1713961016.0",
-            "cluster": {
-                "name": "logpoint_cluster7655",
-                "node": "10.163.205.166"
-            },
-            "full_log": "2024-04-24T14:16:55.863898+0200 [duoauthproxy.lib.log#info] Sending request from 10.163.117.60 to radius_server_auto",
-            "decoder": {},
-            "location": "\\Program Files\\Duo Security Authentication Proxy\\log\\authproxy.log"
+      },
+      "device": null,
+      "authenticationContext": {
+        "authenticationProvider": null,
+        "credentialProvider": null,
+        "credentialType": null,
+        "issuer": null,
+        "interface": null,
+        "authenticationStep": 0,
+        "externalSessionId": "102q5Hh6wOGRj2muULMfFaItQ"
+      },
+      "displayMessage": "User update password for Okta",
+      "eventType": "user.account.update_password",
+      "outcome": {
+        "result": "SUCCESS",
+        "reason": null
+      },
+      "published": "2024-05-02T04:31:07.929Z",
+      "securityContext": {
+        "asNumber": 45650,
+        "asOrg": "jawalakhel",
+        "isp": "abc communications",
+        "domain": "abc.org",
+        "isProxy": false
+      },
+      "severity": "INFO",
+      "debugContext": {
+        "debugData": {
+          "requestId": "dffdcbb4987d6ced23790b1c6e55818e",
+          "dtHash": "6a384e8abf32344df80dd6118daad655b2c13e0d61e0b0dacada2beb26e2f3d7",
+          "requestUri": "/api/v1/users/00ud9t2pk6DYaUHyY417/lifecycle/expire_password",
+          "url": "/api/v1/users/00ud9t2pk6DYaUHyY417/lifecycle/expire_password?"
         }
-    },
-    {
-        "AgentX_win": {
-            "timestamp": "2024-04-24T12:17:16.380+0000",
-            "agent": {
-                "id": "034",
-                "name": "w800pp023",
-                "ip": "10.163.109.23",
-                "labels": {
-                    "os_name": "windows",
-                    "event_source": "Duo-Security-Auth-Proxy"
-                }
+      },
+      "legacyEventType": "core.user.config.password_update.success",
+      "transaction": {
+        "type": "WEB",
+        "id": "dffdcbb4987d6ced23790b1c6e55818e",
+        "detail": {}
+      },
+      "uuid": "cba2f8ca-083c-11ef-a61d-4dfb958217dc",
+      "version": "0",
+      "request": {
+        "ipChain": [
+          {
+            "ip": "10.0.0.1",
+            "geographicalContext": {
+              "city": "Kathmandu",
+              "state": "Bagmati Province",
+              "country": "Nepal",
+              "postalCode": null,
+              "geolocation": {
+                "lat": 2.4,
+                "lon": 85.3318
+              }
             },
-            "manager": {
-                "name": "agentx-server"
-            },
-            "id": "1713961036.0",
-            "cluster": {
-                "name": "logpoint_cluster7655",
-                "node": "10.163.205.166"
-            },
-            "full_log": "2024-04-24T14:17:14.531584+0200 [duoauthproxy.lib.http._DuoHTTPClientFactory#info] Starting factory <_DuoHTTPClientFactory: b'https://api-b309aab8.duosecurity.com:443/rest/v1/preauth'>",
-            "decoder": {},
-            "location": "\\Program Files\\Duo Security Authentication Proxy\\log\\authproxy.log"
+            "version": "V4",
+            "source": null
+          }
+        ]
+      },
+      "target": [
+        {
+          "id": "00ud9t2pk6DYaUHyY417",
+          "type": "User",
+          "alternateId": "abc@lplab.com",
+          "displayName": "ABC ABC",
+          "detailEntry": null
         }
-    },
-    {
-        "AgentX_win": {
-            "timestamp": "2024-04-24T12:15:58.534+0000",
-            "agent": {
-                "id": "036",
-                "name": "w600pp012",
-                "ip": "10.163.125.12",
-                "labels": {
-                    "os_name": "windows",
-                    "event_source": "Duo-Security-Auth-Proxy"
-                }
-            },
-            "manager": {
-                "name": "agentx-server"
-            },
-            "id": "1713960958.0",
-            "cluster": {
-                "name": "logpoint_cluster7655",
-                "node": "10.163.205.166"
-            },
-            "full_log": "2024-04-24T14:15:58.322015+0200 [duoauthproxy.lib.log#info] Sending request from 10.163.125.60 to radius_server_iframe",
-            "decoder": {},
-            "location": "\\Program Files\\Duo Security Authentication Proxy\\log\\authproxy.log"
-        }
+      ]
     }
-]
+  ]
+}
